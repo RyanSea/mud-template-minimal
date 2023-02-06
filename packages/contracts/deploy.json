@@ -1,4 +1,4 @@
 {
-  "components": ["CounterComponent"],
-  "systems": [{ "name": "IncrementSystem", "writeAccess": ["CounterComponent"] }]
+  "components": ["TreasuryComponent", "LastBlockComponent"],
+  "systems": [{ "name": "DegenButtonSystem", "writeAccess": ["TreasuryComponent", "LastBlockComponent"] }]
 }
